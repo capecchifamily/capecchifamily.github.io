@@ -1,17 +1,15 @@
 ---
 layout:            post
-title:             "This post demonstrates post content styles"
-menutitle:         "Content styles"
+title:             Fried Rice
+menutitle:         "Fried Rice"
 category:          Features
 author:            Bill Capecchi
 tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs
 ---
 
-## Recipe: Fried Rice
-
 **Origin:**
 
- A Thai cookbook we got from Smile Organic Farm Cooking School that Steph and I went to outside of Chiang Mai Thailand while on honeymoon. It’s been adapted to my taste.
+ A Thai cookbook Steph and I got from Smile Organic Farm Cooking School that we went to outside of Chiang Mai Thailand while on honeymoon. It’s been adapted to my taste.
 
 ### Ingredients:
 
