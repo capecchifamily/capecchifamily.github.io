@@ -7,10 +7,13 @@ author:            Bill Capecchi
 tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs
 ---
 
-##Recipe: Fried Rice
+## Recipe: Fried Rice
+
 **Origin:**
+
  A Thai cookbook we got from Smile Organic Farm Cooking School that Steph and I went to outside of Chiang Mai Thailand while on honeymoon. It’s been adapted to my taste.
-###Ingredients:
+
+### Ingredients:
 
 - 1 tsp sugar
 - 1 Tbsp oyster sauce
@@ -25,7 +28,7 @@ tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs
 - 3-4 green onions, chopped
 - 1-2 tsp crushed red pepper
 
-###Instructions:
+### Instructions:
 
 Make the rice first, having it ready before you start cooking the rest. 
 
