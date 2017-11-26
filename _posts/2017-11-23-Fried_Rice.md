@@ -1,7 +1,7 @@
 ---
 layout:            post
 title:             Fried Rice
-menutitle:         "Fried Rice"
+menutitle:         Fried Rice
 category:          Features
 author:            Bill Capecchi
 tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs
