@@ -1,13 +1,13 @@
 ---
 layout:            post
-title:             Fried Rice
+title:             "Fried Rice"
 menutitle:         Fried Rice
 category:          Features
 author:            Bill Capecchi
 tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs
 ---
 
-**Origin:**
+### Origin:
 
  A Thai cookbook Steph and I got from Smile Organic Farm Cooking School that we went to outside of Chiang Mai Thailand while on honeymoon. It’s been adapted to my taste.
 
@@ -28,13 +28,13 @@ tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs
 
 ### Instructions:
 
-Make the rice first, having it ready before you start cooking the rest. 
+Make the rice first, having it ready before you start cooking the rest.
 
 Mix the sugar, oyster and soy sauce and set aside (I like to double the sugar/soy).
 
 Heat the olive oil in a wok over high heat and wait until smoking before proceeding. (I’ve never had the heat up too high- you’re adding a lot of stuff which will dissipate the heat, so go nuts).
 Swirl the pan to coat in oil, then add the chicken, turning occasionally to brown, 3-5 minutes.
-Add the eggs and stir consistently until cooked, ~1min. 
+Add the eggs and stir consistently until cooked, ~1min.
 Add the garlic and veggies, cook for a few minutes to get the heat back up.
 Once veggies are slightly browned, add rice, sauce, and crushed red pepper, stir to mix.
 Continue stirring to avoid burning until the rice makes a good popping noise.
