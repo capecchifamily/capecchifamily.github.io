@@ -1,10 +1,64 @@
-# jekyllDecent
-[![Build Status](https://travis-ci.org/jwillmer/jekyllDecent.svg?branch=gh-pages)](https://travis-ci.org/jwillmer/jekyllDecent) 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
-[![Release v1.1.7](https://img.shields.io/badge/release-v1.1.8-blue.svg)](https://github.com/jwillmer/jekyllDecent/releases/tag/1.1.8)
+# mug
 
-This is a blog template for a static site generator named [Jekyll](https://jekyllrb.com/docs/home/) based on a [Ghost](https://ghost.org) template named [Decent](https://github.com/serenader2014/decent). 
+Jekyll theme
 
-Installation instructions, features, previews and more can be found in the **[GitHub generated blog](https://jwillmer.github.io/jekyllDecent)**. This blog is automatically generated out of the source code in the `gh-pages` branch. If you like to see the theme in production have a look at [jwillmer.de](https://jwillmer.de).
+> :warning:
+  This theme requires ruby and rubygems installed
 
-[![](https://raw.githubusercontent.com/jwillmer/jekyllDecent/gh-pages/media/img/2016-06-08-Readme-front-page-previewe.jpg)](https://jwillmer.github.io/jekyllDecent)
+* [x] Clean layout
+* [x] Resposive layout
+* [x] Preprocessor SASS
+* [x] CSS minified
+* [x] Search posts
+* [x] Pagination
+* [x] Syntax highlight
+* [x] Author config
+* [x] Share posts
+* [x] Comments with Disqus
+
+---
+
+### Start in 4 steps
+
+1. Download or clone repo `git clone git@github.com:nandomoreirame/mug.git`
+2. Enter the folder: `cd mug/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
+
+Access, [localhost:4000/mug](http://localhost:4000/mug)
+
+### Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+### Using Rake tasks
+
+* Create a new page: `rake page name="contact.md"`
+* Create a new post: `rake post title="TITLE OF THE POST"`
+
+---
+
+### Demo and Download
+
+[Demo](https://nandomoreirame.github.io/mug/)
+[Download](https://github.com/nandomoreirame/mug/archive/master.zip)
+
+![mug - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+> :warning:
+  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
+
+Enjoy :yum:
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/1QQGjzDQqsP1MDC8moUwzJjD/nandomoreirame/mug'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/1QQGjzDQqsP1MDC8moUwzJjD/nandomoreirame/mug.svg' />
+</a>
