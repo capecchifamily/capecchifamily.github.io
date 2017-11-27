@@ -12,6 +12,7 @@ GEM
     execjs (2.6.0)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    ffi (1.9.10-x86-mingw32)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -60,6 +61,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   jekyll (~> 2.5.3)
@@ -67,4 +69,4 @@ DEPENDENCIES
   sass (~> 3.4.10)
 
 BUNDLED WITH
-   1.10.6
+   1.16.0
