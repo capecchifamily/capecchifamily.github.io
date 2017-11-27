@@ -35,7 +35,7 @@ def main():
             if '### Ingredients' in p.text:
                 ingredients = True
 
-            tf.write(p.text+"\n")
+            tf.write(p.text+"  \n")
         tf.close()
         print(md_path+filenames[i]+'.md')
         
