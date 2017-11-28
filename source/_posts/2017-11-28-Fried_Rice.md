@@ -1,8 +1,8 @@
 ---  
 layout:            post  
 title:             Fried Rice  
-menutitle:         Fried Rice  
-category:          Features  
+category:          Main Dish  
+abstract:	A classic savory fried rice dish. Easy to make and absolutely delicious.  
 author:            Bill Capecchi  
 tags:              sugar oyster_sauce soy_sauce olive_oil rice eggs  
 ---  
@@ -51,3 +51,5 @@ Pack into little bowls, place plate on top, then flip for a fancy presentation.
 ### Options:  
   
 Delicious with some diced pineapple. We’ve also made this with lots of other veggies- peas are good, chopped green cabbage gives a really nice flavor. Try things out, add good combos to this document!  
+  
+![Fried_Rice.jpg](/images/Fried_Rice.jpg "Fried_Rice.jpg")

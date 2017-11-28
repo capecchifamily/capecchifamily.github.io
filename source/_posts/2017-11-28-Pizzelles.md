@@ -1,8 +1,8 @@
 ---  
 layout:            post  
 title:             Pizzelles  
-menutitle:         Pizzelles  
-category:          Features  
+category:          Dessert  
+abstract:	A family standby! Always on hand at mom’s house.  
 author:            Bill Capecchi  
 tags:  
 ---  

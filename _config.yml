@@ -12,7 +12,7 @@ sass:
   sass_dir: _scss
   style: compressed
 
-cover: /assets/images/default-cover.png
+cover: #/images/cover5.png
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
