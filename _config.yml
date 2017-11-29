@@ -12,32 +12,31 @@ sass:
   sass_dir: _scss
   style: compressed
 
-cover: #/images/cover5.png
+cover: #in layout.scss
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
 name: Capecchi Family Recipes
-title: "wtf"
+title: "CFR"
 description: "Sharing Love Through Good Food"
 keywords: ""
-url: #http://nandomoreira.me
+url:
 baseurl: ""
-#baseurl: "/mug"
 domain_name: capecchifamilyrecipes.com
 # google_analytics: UA-52446115-1
-repo: #http://github.com/nandomoreirame/mug
-disqus_shortname: #"nandothemes"
+repo:
+disqus_shortname:
 
 author:
   name      : Bill Capecchi
   image     : /images/author.jpg
   email     : william.capecchi@gmail.com
-  url       : #http://nandomoreira.me
-  facebook  : #http://facebook.com/fernando.dev
-  twitter   : #http://twitter.com/nandomoreirame
-  instagram : #http://instagram.com/nandomoreira.me
-  github    : #http://github.com/nandomoreirame
-  linkedin  : #http://linkedin.com/in/nandomoreirame
-  bio       : #"Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  url       :
+  facebook  :
+  twitter   :
+  instagram :
+  github    :
+  linkedin  :
+  bio       :
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

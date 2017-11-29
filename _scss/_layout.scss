@@ -160,14 +160,17 @@
 }
 
 /**
- * Site Header
+ * Site Header/Footer
  */
-.site-header,
-.site-footer {
-  /*
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  */
+.site-header {
   background: url("/images/cover.jpg");
+  background-color: $secondary-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-footer {
+  background: url("/images/owls.png");
   background-color: $secondary-color;
   background-repeat: no-repeat;
   background-size: cover;
@@ -360,7 +363,8 @@ $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
   margin-top: 1.5em;
 
   small, a {
-    color: rgba($white-color, .75);
+    color: #aaa;
+    /*color: rgba($white-color, .75);*/
   }
 
   small {
