@@ -6,7 +6,7 @@ paginate: 5 #6
 comments: true
 paginate_path: "/page/:num"
 
-source: source
+#source: source
 destination: _site
 sass:
   sass_dir: _scss
@@ -17,7 +17,7 @@ cover: #/images/cover5.png
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
 name: Capecchi Family Recipes
-title: "CFR"
+title: "wtf"
 description: "Sharing Love Through Good Food"
 keywords: ""
 url: #http://nandomoreira.me
@@ -30,7 +30,7 @@ disqus_shortname: #"nandothemes"
 
 author:
   name      : Bill Capecchi
-  image     : /assets/images/author.jpg
+  image     : /images/author.jpg
   email     : william.capecchi@gmail.com
   url       : #http://nandomoreira.me
   facebook  : #http://facebook.com/fernando.dev
