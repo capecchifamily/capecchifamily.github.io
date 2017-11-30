@@ -8,16 +8,21 @@ import os
 def main():
 
     path = 'C:\\Users\\Owner\\Google Drive\\Recipes\\'
-    md_path = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\source\\_posts\\'
+    github = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\'
+    md_path = github + '_posts\\'
 
     '''First we delete all present posts in order to update them all again, below'''
     posts = glob.glob(md_path+'*.*')
     for p in posts:
         os.remove(p)
 
-    img_path = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\source\\images\\'
+    '''And we restock the Recipes folder with the template from github since we know it hasn't been saved over'''
+    copyfile(github + '_RECIPE_TEMPLATE_.docx', path + '_RECIPE_TEMPLATE_.docx')
+
+    img_path = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\images\\'
     files = glob.glob(path+'*.*')
     files = [f for f in files if '~' not in f]
+    files.remove('_RECIPE_TEMPLATE_.docx')
     filenames = [f[len(path):] for f in files]
     filenames = [f.split('.')[0] for f in filenames]
     a=1
@@ -36,30 +41,24 @@ def main():
             d = '0'+d
         tf = open(md_path + y+'-'+m+'-'+d+'-'+'_'.join(filenames[i].split(' ')) + '.md', 'w', encoding='utf-8')
         ingredients = False
-        images = False
         for p in doc.paragraphs:
-            if images:
-                if os.path.isfile(path+'images\\'+p.text):
-                    print(p.text)
-                    copyfile(path+'images\\'+p.text, img_path+p.text)
-                    tf.write('!['+p.text+'](/images/'+p.text + ' "'+p.text+'")')
+            #print(p.text)
+            if '<img>' in p.text:
+                img_fn = p.text[5:].strip()
+                if os.path.isfile(path+'images\\'+img_fn):
+                    if not os.path.isfile(img_path+img_fn):  # if not present, add to github images folder
+                        copyfile(path + 'images\\' + img_fn, img_path + img_fn)
+                    tf.write('!['+img_fn+'](\\images\\'+img_fn + ' "'+img_fn.split('.')[0]+'")\n')
             else:
-                #print(p.text)
                 if '### Instructions' in p.text:
                     ingredients = False
                 if ingredients and len(p.text) > 1:
                     tf.write('- ')
                 if '### Ingredients' in p.text:
                     ingredients = True
-
                 if '###' in p.text:
                     tf.write('***\n\n')
-
-                # If we hit the images section we won't write this line and will jump to writing in the images
-                if '**Images' in p.text:
-                    images = True
-                else:
-                    tf.write(p.text+"  \n")
+                tf.write(p.text + "  \n")
 
         tf.close()
         print(md_path+filenames[i]+'.md')

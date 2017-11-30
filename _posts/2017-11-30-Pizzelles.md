@@ -1,9 +1,9 @@
 ---  
-layout:            post  
-title:             Pizzelles  
-category:          Dessert  
-abstract:	A family standby! Always on hand at mom’s house.  
-author:            Bill Capecchi  
+layout: post  
+title: Pizzelles  
+category: Dessert  
+abstract: A family standby! Always on hand at mom and dad’s house.  
+author: Bill Capecchi  
 tags:  
 ---  
   
