@@ -22,7 +22,7 @@ def main():
     img_path = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\images\\'
     files = glob.glob(path+'*.*')
     files = [f for f in files if '~' not in f]
-    files.remove('_RECIPE_TEMPLATE_.docx')
+    files.remove(path+'_RECIPE_TEMPLATE_.docx')
     filenames = [f[len(path):] for f in files]
     filenames = [f.split('.')[0] for f in filenames]
     a=1
