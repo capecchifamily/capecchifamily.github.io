@@ -16,7 +16,12 @@ def main():
     for p in posts:
         os.remove(p)
 
-    '''And we restock the Recipes folder with the template from github since we know it hasn't been saved over'''
+    '''And we restock the Recipes folder with the template from github since we know it hasn't been saved over
+    while also deleting anything in there that isn't .docx'''
+    googledrive_files = glob.glob(path+'*.*')
+    you_shouldnt_be_here = [f for f in googledrive_files if f[-5:] != '.docx']
+    for f in you_shouldnt_be_here:
+        os.remove(f)
     copyfile(github + '_RECIPE_TEMPLATE_.docx', path + '_RECIPE_TEMPLATE_.docx')
 
     img_path = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\images\\'
