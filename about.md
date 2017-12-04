@@ -30,4 +30,4 @@ If you're feeling ambitious, take some pictures! Photos of the process as well a
 
 <img> example.jpg
 
-(Replacing 'example' with the image name). Then just drop the picture into /Recipes/Images/. Any image extension should work (like .png). The images can be placed anywhere in the document, just make sure the formatting stays consistent with what's above and it should work out just fine. (If it doesn't I can always go take a look and fix it up). So please start uploading!
+(Replacing 'example' with the image name). Then just drop the picture into **/Recipes/images/**. Any image extension should work (like .png). The images can be placed anywhere in the document, just make sure the formatting stays consistent with what's above and it should work out just fine. (If it doesn't I can always go take a look and fix it up). So please start uploading!
