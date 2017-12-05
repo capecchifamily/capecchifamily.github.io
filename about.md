@@ -9,6 +9,7 @@ permalink: /about/
 -J. R. R. Tolkien</em>
 </p>
 
+edit
 I'm hoping this site can provide an easy way for us to share and preserve some of our favorite recipes! If you're like me, I never seem to have the recipe I want on hand, and inevitably revert to asking long strings of unanswerable questions like "What was that thing we had that one time?..."
 
 So here we are. A repository of family classics and favorites. It definitely loses that  *je ne sais quoi* being online and not a yellowing 3x5 card covered in food stains, but it's accessible, and hopefully an easy way for us to share. So here are some (hopefully easy) steps to get your recipes online!
