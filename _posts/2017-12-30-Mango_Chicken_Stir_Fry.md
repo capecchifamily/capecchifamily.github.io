@@ -73,6 +73,7 @@ Place the onion, bell pepper, jalapeno, and mango in the skillet and stir-fry un
 ### Notes:  
   
 First off, of course regular rice works. We also use chicken thighs instead of breasts. Careful with the spiciness, I’ve made this where it was borderline inedible!  
+Also, we’ve used frozen mango chunks from the freezer section (fresh mangoes weren’t available at the time) and they worked just fine as well.  
 A note in the cookbook mentions that in order to make this Whole30 compliant, substitute 1 tsp hot sauce and 2 cloves minced garlic for the chili sauce.  
 I find the arrowroot powder is key, making the sauce thick and sticky instead of runny.  
   
