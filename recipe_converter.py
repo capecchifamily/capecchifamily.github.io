@@ -4,7 +4,6 @@ from shutil import copyfile
 import os
 
 
-
 def main():
 
     path = 'C:\\Users\\Owner\\Google Drive\\Recipes\\'

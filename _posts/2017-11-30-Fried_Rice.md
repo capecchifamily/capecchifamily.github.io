@@ -1,4 +1,4 @@
----  
+﻿---  
 layout: post  
 title: Fried Rice  
 category: Main Dish  
@@ -10,7 +10,9 @@ tags: sugar oyster_sauce soy_sauce olive_oil rice eggs
 ***
 
 ### Origin:  
-  
+
+<!-- comment1 -->
+<!--- comment2 --->
  A Thai cookbook Steph and I got from Smile Organic Farm Cooking School that we went to outside of Chiang Mai Thailand while on honeymoon. It’s been adapted to my taste.  
 ![Fried_Rice.jpg](\images\Fried_Rice.jpg "Fried_Rice")
   
