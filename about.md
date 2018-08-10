@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: How To
+permalink: /how-to/
 ---
 
 
@@ -15,12 +15,15 @@ So here we are. A repository of family classics and favorites. It definitely los
 
 ***
 
-### How to Upload a Recipe:
+### How to Add a New Recipe
 
-- First, make sure you can access this **[Google Drive Recipes](https://drive.google.com/open?id=1Cy4220EerEKfIJFyoO2B7DD2xV7bGXBm "Link to Recipes Folder")** folder
-- Make a copy of **\_Recipe_Template_.docx** and rename it after your recipe
-- Change the highlighted portions and include as much or as little info as you wish
-- That's it! Just save and leave the document there and it'll end up on the website!
+First, make sure you can access this **[Google Drive Recipes](https://drive.google.com/open?id=1Cy4220EerEKfIJFyoO2B7DD2xV7bGXBm "Link to Recipes Folder")** folder.
+The files here are .md "markdown" files, and are used to generate the recipe web pages. You can use any text editor (like Notebook) to edit them. This should make it accessible to everyone even if you don't have Word. If you're feeling ambitious, download Atom to view and edit markdown files, it's free.
+
+If you'd like to work from a blank slate, make a copy of Recipe_Template.md, then rename and fill it out with your recipe information.
+If you'd prefer to work with something that's already functional, just make a copy of another recipe, change the name, and edit the fields! 
+This might help if you're having difficulty figuring something out, like how to add images.
+That's it! Just save and leave the document there and it'll end up on the website!
 
 Also feel free to add in your own notes or comments to other recipes!
 
@@ -28,8 +31,12 @@ Also feel free to add in your own notes or comments to other recipes!
 
 ### Images
 
-If you're feeling ambitious, take some pictures! Photos of the process as well as the finished product are always nice accompaniments as the rest of us go through making your recipe! To place an image in your recipe, simply add this on its own line:
+If you're feeling ambitious, take some pictures! Photos of the process as well as the finished product are always nice 
+accompaniments as the rest of us go through making your recipe! To place an image in your recipe, simply add this on its own line:
 
-\<img\> example.jpg
+\![example.jpg]\(\images\example.jpg "image title")
 
-(Replacing 'example' with the image name). Then just drop the picture into **/Recipes/images/**. Any image extension should work (like .png). The images can be placed anywhere in the document, just make sure the formatting stays consistent with what's above and it should work out just fine. (If it doesn't I can always go take a look and fix it up). So please start uploading!
+(Replacing 'example.jpg' with the image name and extension). Then just drop the picture into **/Recipes/images/**. 
+Any image extension should work (like .png). The images can be placed anywhere in the document, just make sure the 
+formatting stays consistent with what's above and it should work out just fine. (If it doesn't I can always go take a 
+look and fix it up). So please start uploading!

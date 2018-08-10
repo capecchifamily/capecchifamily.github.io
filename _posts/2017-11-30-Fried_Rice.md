@@ -3,7 +3,7 @@ layout: post
 title: Fried Rice  
 category: Main Dish  
 abstract: A classic savory rice dish. Easy to make and absolutely delicious.  
-author: Bill Capecchi  
+author: Bill
 tags: sugar oyster_sauce soy_sauce olive_oil rice eggs  
 ---  
   
@@ -11,9 +11,6 @@ tags: sugar oyster_sauce soy_sauce olive_oil rice eggs
 
 ### Origin:  
 
-<!-- comment1 -->
-<!--- comment2 --->
-<!- bad comment ->
 A Thai cookbook Steph and I got from Smile Organic Farm Cooking School that we went to outside of Chiang Mai Thailand while on honeymoon. It’s been adapted to my taste.  
 ![Fried_Rice.jpg](\images\Fried_Rice.jpg "Fried_Rice")
   
