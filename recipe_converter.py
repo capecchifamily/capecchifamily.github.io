@@ -2,9 +2,10 @@ import glob
 import docx
 from shutil import copyfile
 import os
+from datetime import datetime
 
 
-def main():
+def word_to_md_converter():
 
     path = 'C:\\Users\\Owner\\Google Drive\\Recipes\\'
     github = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\'
@@ -68,5 +69,36 @@ def main():
         print(md_path+filenames[i]+'.md')
 
 
+def move_md_files():
+    google_drive = 'C:\\Users\\Owner\\Google Drive\\Recipes\\'
+    github = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\'
+    md_path = github + '_posts\\'
+    img_path = 'C:\\Users\\Owner\\Documents\\GitHub\\capecchifamily.github.io\\images\\'
+
+    '''
+    First we delete all present posts in order to update them all again, and restock the folder
+    with a new recipe template in case the one in there got messed with
+    '''
+    posts = glob.glob(md_path + '*')
+    for p in posts:
+        os.remove(p)
+    copyfile(github + 'RECIPE_TEMPLATE.md', google_drive + 'RECIPE_TEMPLATE.md')
+
+    md_files = [f for f in glob.glob(google_drive+'*.md') if f != google_drive + 'RECIPE_TEMPLATE.md']
+    filenames = [f[len(google_drive):] for f in md_files]
+
+    for i, file in enumerate(md_files):
+        modified = datetime.fromtimestamp(os.path.getmtime(file)).strftime('%Y-%m-%d-')
+
+        post_name = modified + filenames[i]
+
+        copyfile(file, md_path + post_name)
+        print(md_path + post_name)
+
+
 if __name__ == '__main__':
-    main()
+
+    move_md_files()
+
+    # old way:
+    # word_to_md_converter()
