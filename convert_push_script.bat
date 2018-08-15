@@ -23,4 +23,3 @@ git push
 
 ::Alert user to script completion
 echo Complete
-pause
