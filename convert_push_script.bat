@@ -2,6 +2,9 @@
 ::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
 cd C:\Users\Owner\Documents\GitHub\capecchifamily.github.io\
 
+:: Run converter routine first, then push to github
+py .\recipe_converter.py %*
+
 ::Initialize GitHub
 git init
 
@@ -18,5 +21,6 @@ git commit -m "auto push"
 ::Push all changes to GitHub
 git push
 
-::Alert user to script completion and relaunch.
-echo Complete. Relaunching...
+::Alert user to script completion
+echo Complete
+pause
